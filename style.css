@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+.required {
+    color: red;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    flex: 1;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 10px;
+}
+button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color:grey;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
